@@ -42,7 +42,7 @@ input#imsg {
     overflow-x: scroll;
 }
 
-#botao {
+button {
     width: 300px;
     padding: 8px;
     border: none;
@@ -52,4 +52,8 @@ input#imsg {
     border-radius: 6px;
     background-color: #ffffff;
     color: #333333;
+}
+
+button:hover {
+    cursor:pointer;
 }
