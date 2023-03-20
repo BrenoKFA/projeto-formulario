@@ -7,7 +7,7 @@
     input {
         width: 440px;
     }
-    #botao {
+    input#enviar {
         width: 450px;
     }
 }
@@ -19,7 +19,7 @@
     input {
         width: 540px;
     }
-    #botao {
+    input#enviar {
         width: 550px;
     }
 }

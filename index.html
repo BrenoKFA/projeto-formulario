@@ -14,21 +14,27 @@
             <h1>Preencha o Formulário</h1>
         </header>
         <main>
-            <div>
-                <form>
-                    <input type="text" name="nome" id="inome" placeholder="Nome">
-                    <br>
-                    <input type="text" name="email" id="iemail" placeholder="E-mail">
-                    <br>
-                    <input type="text" name="tel" id="itel" placeholder="(99) 99999-9999">
-                    <br>
-                    <input type="text" name="msg" id="imsg" placeholder="Mensagem">
-                </form>
-            </div>
-            <div>
-                <button id="botao" >Enviar</button>
-            </div>
+            <form>
+                <input type="text" name="nome" id="inome" placeholder="Nome" required>
+                <br>
+                <input type="text" name="email" id="iemail" placeholder="E-mail" required>
+                <br>
+                <input type="text" name="tel" id="itel" placeholder="(99) 99999-9999" required>
+                <br>
+                <input type="text" name="msg" id="imsg" placeholder="Mensagem" required>
+                <input type="submit" id="enviar" value="Enviar" onclick="clicou()">
+            </form>
         </main>
     </section>
+
+    <script>
+        function clicou() {
+            let section = document.querySelector('section')
+            section.style.backgroundColor = '#ffffff'
+            section.style.textAlign = 'center'
+            section.style.fontSize = '2em'
+            section.innerHTML = `<p>Obrigado por responder!</p>`
+        }
+    </script>
 </body>
 </html>

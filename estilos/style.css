@@ -42,7 +42,7 @@ input#imsg {
     overflow-x: scroll;
 }
 
-button {
+input#enviar {
     width: 300px;
     padding: 8px;
     border: none;
@@ -54,6 +54,6 @@ button {
     color: #333333;
 }
 
-button:hover {
+input#enviar:hover {
     cursor:pointer;
 }
