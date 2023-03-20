@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section {
+        width: 450px;
+    }
+    input {
+        width: 440px;
+    }
+    #botao {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section {
+        width: 550px;
+    }
+    input {
+        width: 540px;
+    }
+    #botao {
+        width: 550px;
+    }
+}
