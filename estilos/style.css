@@ -16,11 +16,7 @@ section {
     height: 340px;
     border-radius: 10px;
     padding: 10px;
-
-    position: absolute; 
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
+    margin: auto;
 }
 
 header {
