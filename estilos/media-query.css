@@ -1,17 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    section {
-        width: 450px;
-    }
-    input {
-        width: 440px;
-    }
-    input#enviar {
-        width: 450px;
-    }
-}
-
 @media screen and (min-width: 992px) {
     section {
         width: 550px;
@@ -21,5 +9,17 @@
     }
     input#enviar {
         width: 550px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section {
+        width: 450px;
+    }
+    input {
+        width: 440px;
+    }
+    input#enviar {
+        width: 450px;
     }
 }
